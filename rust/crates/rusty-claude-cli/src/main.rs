@@ -877,27 +877,33 @@ fn render_config_report() -> Result<String, Box<dyn std::error::Error>> {
 }
 
 fn render_memory_report() -> Result<String, Box<dyn std::error::Error>> {
-    let project_context = ProjectContext::discover(env::current_dir()?, DEFAULT_DATE)?;
+    let cwd = env::current_dir()?;
+    let project_context = ProjectContext::discover(&cwd, DEFAULT_DATE)?;
     let mut lines = vec![format!(
-        "memory: files={}",
+        "Memory
+  Working directory {}
+  Instruction files {}",
+        cwd.display(),
         project_context.instruction_files.len()
     )];
     if project_context.instruction_files.is_empty() {
+        lines.push("Discovered files".to_string());
         lines.push(
             "  No CLAUDE instruction files discovered in the current directory ancestry."
                 .to_string(),
         );
     } else {
-        for file in project_context.instruction_files {
+        lines.push("Discovered files".to_string());
+        for (index, file) in project_context.instruction_files.iter().enumerate() {
             let preview = file.content.lines().next().unwrap_or("").trim();
             let preview = if preview.is_empty() {
                 "<empty>"
             } else {
                 preview
             };
+            lines.push(format!("  {}. {}", index + 1, file.path.display(),));
             lines.push(format!(
-                "  {} ({}) {}",
-                file.path.display(),
+                "     lines={} preview={}",
                 file.content.lines().count(),
                 preview
             ));
@@ -1334,8 +1340,9 @@ mod tests {
         format_cost_report, format_model_report, format_model_switch_report,
         format_permissions_report, format_permissions_switch_report, format_resume_report,
         format_status_report, normalize_permission_mode, parse_args, parse_git_status_metadata,
-        render_init_claude_md, render_repl_help, resume_supported_slash_commands, status_context,
-        CliAction, SlashCommand, StatusUsage, DEFAULT_MODEL,
+        render_init_claude_md, render_memory_report, render_repl_help,
+        resume_supported_slash_commands, status_context, CliAction, SlashCommand, StatusUsage,
+        DEFAULT_MODEL,
     };
     use runtime::{ContentBlock, ConversationMessage, MessageRole};
     use std::path::{Path, PathBuf};
@@ -1562,6 +1569,15 @@ mod tests {
         assert!(status.contains("Session          session.json"));
         assert!(status.contains("Config files     loaded 2/3"));
         assert!(status.contains("Memory files     4"));
+    }
+
+    #[test]
+    fn memory_report_uses_sectioned_layout() {
+        let report = render_memory_report().expect("memory report should render");
+        assert!(report.contains("Memory"));
+        assert!(report.contains("Working directory"));
+        assert!(report.contains("Instruction files"));
+        assert!(report.contains("Discovered files"));
     }
 
     #[test]
